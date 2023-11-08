@@ -8,6 +8,6 @@ mmm
 ```
 brew tap veracode/srcclr
 brew cask install srcclr
-srcclr activate
+srcclr activate,,,,
 srcclr scan --quick  --url https://github.com/veracode/example-dotnet-quickscan
 ....
